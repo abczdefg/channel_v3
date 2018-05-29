@@ -5,7 +5,7 @@ const superagent = require('superagent')
 const childProcess = require('child_process');
 const url = 'https://packagecontrol.io/channel_v3.json'
 const file = path.resolve(__dirname, './dist/channel_v3.json');
-const gitCommand = `git add -A && git commit -m "update" && git push`;
+const gitCommand = `git add -A && git commit -m "update" && git push -u origin master`;
 
 
 function connect(url, file) {
