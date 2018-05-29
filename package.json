@@ -1,0 +1,12 @@
+{
+  "name": "channel_v3",
+  "version": "1.0.0",
+  "description": "Backup the source of package control automatically.",
+  "main": "app.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^3.8.3"
+  }
+}
